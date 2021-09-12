@@ -43,12 +43,13 @@ div {
   text-align: center;
   transform: translate(-50%, -50%);
   color:skyblue;
+  font-size: 1.5em;
   font-weight: 200;
   -webkit-user-select: none;
   user-select: none;
 }
 
-@media only screen and (max-height: 640px) {
+@media only screen and (max-height: 600px) {
   div {
     position: absolute;
     top: 80%;
