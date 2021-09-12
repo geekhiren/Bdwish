@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background: #020202;
+  cursor: crosshair;
+}
+text {
+  background: #020202;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+canvas{display:block}
+h1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 5em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
+h3 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 3em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
+div {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color:skyblue;
+  font-weight: 200;
+  -webkit-user-select: none;
+  user-select: none;
+}
