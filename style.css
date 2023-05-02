@@ -12,7 +12,7 @@ text {
   font-family: 'Open Sans', sans-serif;
 }
 canvas{display:block}
-h1 {
+h2 {
   position: absolute;
     top: 10%;
     left: 50%;
@@ -51,7 +51,7 @@ div {
 }
 
 @media (min-width: 600px) and (max-width: 1027px) {
-  h1{
+  h2{
         position: absolute;
     top: 11%;
     left: 51%;
